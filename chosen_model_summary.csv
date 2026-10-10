@@ -1,0 +1,2 @@
+﻿modelo,accuracy,precision_macro,recall_macro,f1_macro
+MPNet multilingual v2,0.8566233766233766,0.861966002157725,0.8566233766233765,0.8553186807690081

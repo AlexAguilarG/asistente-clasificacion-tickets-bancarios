@@ -1,0 +1,14 @@
+{
+  "project": "Asistente inteligente para clasificación y priorización de tickets bancarios",
+  "prepared_date": "2026-10-10",
+  "dataset_id": "DeepPavlov/banking77-translated",
+  "dataset_config": "es",
+  "dataset_revision": "Resolve with src/inspect_dataset.py before reproducing",
+  "baseline_train_samples": 6036,
+  "baseline_test_samples": 1925,
+  "baseline_test_split_per_class": 25,
+  "seed": 42,
+  "historical_batch_latency_only": true,
+  "latency_single_measurements_require_rerun": true,
+  "notes": "The current repository includes reproducible scripts and a notebook that measure single-ticket latency. The historical comparison CSV does not contain p50/p95/p99 single-ticket measurements."
+}

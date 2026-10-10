@@ -1,0 +1,36 @@
+# Secrets and environment variables
+.env
+.env.*
+*.token
+*secret*
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Downloaded datasets / caches / generated samples
+.data_cache/
+.cache/
+.cache_huggingface/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Model weights and checkpoints
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Execution output can contain input text and predicted labels; review before publishing
+results/run_latest/
+results/dataset_profile/
